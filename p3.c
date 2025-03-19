@@ -6,8 +6,9 @@
 
 int main()
 {
+    char buffer1[8] = "Esto no";
     char buffer[LONGITUD];
-    char buffer2[LONGITUD] = "Esto no !!";
+    char buffer2[LONGITUD] = "Esto tampoco !!";
     char *p_cadena;
     int i, j;
 
